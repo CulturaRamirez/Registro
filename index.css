@@ -1,0 +1,47 @@
+body{
+    margin: auto ;
+background-color: brown;
+}
+.logis{
+background-color: aqua;
+width: 300px ;
+height: 300px ;
+border-radius: 5px;
+position: absolute;
+
+left: 50%;
+transform: translate(-50%,50%);
+}
+.logis{
+    display: grid;
+    place-items: center;
+   
+}
+
+
+.form-group{
+    margin-bottom: 15px;
+    display: grid;
+}
+.form-group > label{
+    position: relative;
+    bottom: 5px;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form-group > input{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+}
+#btm{
+    background-color: rgb(35, 107, 170);
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+

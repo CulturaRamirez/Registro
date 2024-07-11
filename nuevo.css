@@ -1,0 +1,52 @@
+.fom{
+    margin: 0 auto;
+    
+  justify-content: center;
+  align-items: center;
+  
+}
+.form-group{
+    margin: 10px;
+    font-size: 15px;
+    display: grid;
+}
+.col-md-8{
+    background-color: aqua;
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.form-control{
+    padding: 8px 10px;
+    border: 1px rgb(0, 131, 183);
+    border-radius: 5px;
+    align-items: center;
+    height: 25px;
+    outline: none;
+}
+.form-control:focus,
+.form-control:active {
+    
+    background-color: rgba(6, 130, 255, 0.25);
+   
+}
+.form-control:focus,
+.form-control:active {
+    border: 5px solid rgb(172, 172, 196);
+    
+   box-shadow: 1px 1px 1px 1px navy;
+}
+.form-group > button{
+    border: 0;
+    width: 80px;
+    position: relative;
+    left: 40%;
+    height: 20px;
+    border-radius:  5px;
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
